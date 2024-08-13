@@ -3,15 +3,37 @@ h1 {
     color: brown;
 }
 
+*{
+    margin: 0px;
+}
+
+input{
+    display: block;  
+}
+
 #titulo {
     text-align: center;
     color: blue;
+    margin-top: 5% ;
 }
+
 .rodape{
     text-align: center;
     color: blue;
     border: 1px solid;
+    position: fixed;
+    width: 100%;
+    bottom: 1px;
+    background-color: darkgray;
 }
 .entradas-usuario{
     border: 1px solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    padding: 5px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
